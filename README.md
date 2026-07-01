@@ -25,6 +25,17 @@ Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap co
 - CSS personalizado (App.css + index.css)
 - React Compiler (Babel plugin) - Optimización automática de renders.
 
+## 🪛Requisitos previos (Comprobacion e Instalacion)
+ 1. Node.js
+    node --version
+    winget install OpenJS.NodeJS.LTS
+
+
+ 2. pnpm instalados
+    pnpm --version
+    npm.cmd install -g pnpm
+    
+
 ## 📦 Instalación
 
 1. Clona el repositorio:
@@ -47,7 +58,7 @@ Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap co
 5. Despliegue
 
 La aplicación está desplegada en Vercel.
-Puedes visitarla en: [fitnessprogym.vercel.app](https://fitnessprogym.vercel.app)
+Puedes visitarla en: https://fitnessprogym.vercel.app
 Autor
 Alexander Cortés
 

@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="col-md-4 mb-3">
             <h5>Contacto</h5>
             <ul className="list-unstyled text-muted">
-              <li><FaPhone className="me-2" /> +56 9 1234 5678</li>
+              <li><FaPhone className="me-2" /> +56 9 1113 6769</li>
               <li><FaEnvelope className="me-2" /> contacto@fitnesspro.cl</li>
             </ul>
           </div>
