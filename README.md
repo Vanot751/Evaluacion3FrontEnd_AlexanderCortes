@@ -1,6 +1,6 @@
 # 🏋️ FitnessPro - Landing Page
 
-Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap como proyecto final del curso Programación Front End en INACAP.
+Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap como proyecto del curso Programación Front End en INACAP.
 
 ## 🚀 Características
 
@@ -32,7 +32,7 @@ Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap co
    cd Evaluacion3FrontEnd_AlexanderCortes
 
     
-2. Instala las dependencias (usa pnpm o npm):
+2. Instala las dependencias (usa pnpm):
     ```bash
     pnpm install
 
@@ -40,8 +40,6 @@ Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap co
 3. Inicia el servidor de desarrollo:
     ```bash
     pnpm dev
-    # o
-    npm run dev
 
 4. Abre http://localhost:5173 en tu navegador.
 
