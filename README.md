@@ -23,6 +23,7 @@ Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap co
 - Vite (bundler)
 - pnpm (gestor de paquetes)
 - CSS personalizado (App.css + index.css)
+- React Compiler (Babel plugin) - Optimización automática de renders.
 
 ## 📦 Instalación
 
@@ -46,8 +47,7 @@ Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap co
 5. Despliegue
 
 La aplicación está desplegada en Vercel.
-Puedes visitarla en: https://evaluacion3-front-end-alexander-cor.vercel.app
-
+Puedes visitarla en: [fitnessprogym.vercel.app](https://fitnessprogym.vercel.app)
 Autor
 Alexander Cortés
 
