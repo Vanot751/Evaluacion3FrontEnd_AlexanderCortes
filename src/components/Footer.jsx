@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
         <hr className="bg-secondary" />
         <p className="text-center text-muted small">
-          &copy; {new Date().getFullYear()} FitnessPro - Todos los derechos reservados.
+          2026 FitnessPro - Todos los derechos reservados.
         </p>
       </div>
     </footer>
