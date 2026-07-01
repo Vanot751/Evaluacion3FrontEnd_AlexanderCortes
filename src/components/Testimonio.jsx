@@ -7,6 +7,8 @@ const testimonios = [
   { content: "La mejor decisión fue unirme a FitnessPro. ¡Resultados reales!", author: "Carlos R." },
   { content: "Ambiente motivador y equipos de primera. 100% recomendado.", author: "Laura M." },
   { content: "He probado varios gimnasios, pero este es el único donde veo resultados.", author: "Javier P." },
+  { content: "Vo sai po", author: "Angelo Z." },
+  { content: "Soy programador", author: "Yotsua C." },
 ]
 
 export default function TestimonioCarrusel() {
