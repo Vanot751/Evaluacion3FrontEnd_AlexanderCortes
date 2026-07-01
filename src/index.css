@@ -1,0 +1,246 @@
+/* ========== ESTILOS PARA FITNESS ========== */
+:root {
+  /* Colores fitness */
+  --fitness-primary: #e63946;
+  --fitness-bg: #1a1a2e;
+  --fitness-text: #f0f0f0;
+  --fitness-border: #3a3a5a;
+  --fitness-card-bg: #252540;
+  --fitness-card-border: #3a3a5a;
+}
+
+/* Secciones oscuras */
+.bg-dark-section {
+  background-color: var(--fitness-bg);
+  color: var(--fitness-text);
+  padding: 4rem 0;
+}
+
+/* Títulos de sección (ajustados al diseño oscuro) */
+.section-title {
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+/* Tablas de fitness */
+.table-fitness {
+  background-color: var(--fitness-bg);
+  color: var(--fitness-text);
+  border-color: var(--fitness-border);
+}
+
+.table-fitness thead th {
+  background-color: var(--fitness-card-bg);
+  color: #ffffff;
+  border-color: var(--fitness-border);
+  font-weight: 600;
+}
+
+.table-fitness tbody td {
+  border-color: var(--fitness-border);
+  color: #d0d0d0; /* gris claro, legible */
+}
+
+.table-fitness tbody tr:hover {
+  background-color: rgba(255,255,255,0.05);
+}
+
+/* Fila destacada (Estándar) */
+.plan-destacado {
+  background-color: var(--fitness-primary) !important;
+  color: #ffffff !important;
+}
+.plan-destacado td {
+  color: #ffffff !important;
+}
+
+/* Tarjetas de clases (si las usas) */
+.card-fitness {
+  background-color: var(--fitness-card-bg);
+  border: 1px solid var(--fitness-card-border);
+  border-radius: 12px;
+  color: var(--fitness-text);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card-fitness:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+/* Formulario fitness */
+.form-fitness .form-control {
+  background-color: #2a2a45;
+  border: 1px solid var(--fitness-border);
+  color: #fff;
+}
+.form-fitness .form-control:focus {
+  background-color: #2a2a45;
+  border-color: var(--fitness-primary);
+  box-shadow: 0 0 0 0.25rem rgba(230, 57, 70, 0.25);
+}
+.form-fitness .form-label {
+  color: #ccc;
+}
+
+/* Botón principal fitness */
+.btn-fitness-primary {
+  background-color: var(--fitness-primary);
+  border-color: var(--fitness-primary);
+  color: #fff;
+}
+.btn-fitness-primary:hover {
+  background-color: #c62828;
+  border-color: #c62828;
+  color: #fff;
+}
+
+/* Acordeón fitness */
+.accordion-fitness .accordion-item {
+  background-color: var(--fitness-card-bg);
+  border: 1px solid var(--fitness-border);
+}
+.accordion-fitness .accordion-button {
+  background-color: var(--fitness-card-bg);
+  color: #fff;
+}
+.accordion-fitness .accordion-button:not(.collapsed) {
+  background-color: var(--fitness-primary);
+  color: #fff;
+}
+.accordion-fitness .accordion-body {
+  background-color: var(--fitness-bg);
+  color: #ddd;
+}
+
+/* Testimonio */
+.testimonio-box {
+  background: var(--fitness-card-bg);
+  padding: 2rem;
+  border-radius: 16px;
+  border-left: 6px solid var(--fitness-primary);
+}
+
+/* Fondo oscuro para toda la sección de Planes */
+#planes.bg-dark-section {
+  background-color: #1a1a2e !important;
+}
+
+/* Forzar fondo oscuro en TODOS los elementos de la tabla dentro de #planes */
+#planes .table,
+#planes .table thead,
+#planes .table tbody,
+#planes .table tr,
+#planes .table td,
+#planes .table th {
+  background-color: #1a1a2e !important;
+  color: #ffffff !important;
+  border-color: #3a3a5a !important;
+}
+
+/* Fila destacada (Estándar) en ROJO */
+#planes .table .plan-destacado,
+#planes .table .plan-destacado td,
+#planes .table .plan-destacado th {
+  background-color: #e63946 !important;
+  color: #ffffff !important;
+}
+
+/* Opcional: mejorar el hover para que se vea bien */
+#planes .table tbody tr:hover {
+  background-color: #2a2a45 !important;
+}
+
+/* ===== TABLA DE PLANES ===== */
+#planes .table {
+  background-color: #1a1a2e !important;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Bordes entre celdas (más claros para que se vean) */
+#planes .table td,
+#planes .table th {
+  border: 1px solid #3a3a5a !important;
+  padding: 16px 12px !important;
+  vertical-align: middle !important;
+  color: #f0f0f0 !important;
+}
+
+/* Cabecera con fondo diferenciado */
+#planes .table thead th {
+  background-color: #252540 !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e63946 !important;
+}
+
+/* Efecto hover en filas (opcional) */
+#planes .table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Fila Estándar (rojo) */
+#planes .table .plan-destacado,
+#planes .table .plan-destacado td,
+#planes .table .plan-destacado th {
+  background-color: #e63946 !important;
+  color: #ffffff !important;
+  border-color: #b52b3a !important;
+}
+
+/* ===== TABLA DE HORARIOS (mismo estilo que Planes) ===== */
+#horarios.bg-dark-section {
+  background-color: #1a1a2e !important;
+}
+
+/* Forzar fondo oscuro en TODOS los elementos de la tabla dentro de #horarios */
+#horarios .table,
+#horarios .table thead,
+#horarios .table tbody,
+#horarios .table tr,
+#horarios .table td,
+#horarios .table th {
+  background-color: #1a1a2e !important;
+  color: #ffffff !important;
+  border-color: #3a3a5a !important;
+}
+
+/* Estilos específicos para la tabla */
+#horarios .table {
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Bordes y padding */
+#horarios .table td,
+#horarios .table th {
+  border: 1px solid #3a3a5a !important;
+  padding: 16px 12px !important;
+  vertical-align: middle !important;
+  color: #f0f0f0 !important;
+}
+
+/* Cabecera con fondo diferenciado */
+#horarios .table thead th {
+  background-color: #252540 !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e63946 !important;
+}
+
+/* Efecto hover en filas */
+#horarios .table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}

@@ -1,0 +1,215 @@
+/* ========== VARIABLES ========== */
+:root {
+  --fitness-primary: #E63946;
+  --fitness-secondary: #F4A261;
+  --fitness-bg: #1A1A2E;
+  --fitness-bg-light: #16213E;
+  --fitness-text: #FFFFFF;
+  --fitness-text-muted: #B0B0C8;
+  --fitness-border: #2D2D44;
+  --fitness-card-bg: rgba(255, 255, 255, 0.05);
+}
+
+/* ========== SECCIONES ========== */
+.bg-dark-section {
+  background-color: var(--fitness-bg);
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--fitness-border);
+}
+
+.section-title {
+  color: var(--fitness-text);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  position: relative;
+}
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: var(--fitness-primary);
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+/* ========== TARJETAS (Clases) ========== */
+.card-fitness {
+  background: var(--fitness-card-bg);
+  backdrop-filter: blur(4px);
+  border: 1px solid var(--fitness-border);
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: var(--fitness-text);
+}
+.card-fitness:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(230, 57, 70, 0.25);
+  border-color: var(--fitness-primary);
+}
+.card-fitness .text-primary {
+  color: var(--fitness-primary) !important;
+}
+.card-fitness .card-title {
+  color: var(--fitness-text);
+}
+.card-fitness .card-text {
+  color: var(--fitness-text-muted);
+}
+
+/* ========== BOTONES ========== */
+.btn-fitness-primary {
+  background-color: var(--fitness-primary);
+  border-color: var(--fitness-primary);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.6rem 1.8rem;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+.btn-fitness-primary:hover {
+  background-color: #c92a3a;
+  border-color: #c92a3a;
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(230, 57, 70, 0.4);
+}
+
+.btn-outline-light {
+  border-color: rgba(255,255,255,0.5);
+  color: #fff;
+}
+.btn-outline-light:hover {
+  background-color: var(--fitness-primary);
+  border-color: var(--fitness-primary);
+  color: #fff;
+}
+
+/* ========== TABLAS (Horarios y Planes) ========== */
+.table-fitness {
+  background: var(--fitness-bg-light);
+  border-radius: 12px;
+  overflow: hidden;
+  color: var(--fitness-text);
+}
+.table-fitness thead th {
+  background: var(--fitness-primary);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+.table-fitness tbody td {
+  border-bottom: 1px solid var(--fitness-border);
+  color: var(--fitness-text-muted);
+  vertical-align: middle;
+}
+.table-fitness tbody tr:hover {
+  background: rgba(230, 57, 70, 0.08);
+}
+.table-fitness .plan-destacado {
+  background: rgba(230, 57, 70, 0.15);
+  border-left: 4px solid var(--fitness-primary);
+  font-weight: 500;
+}
+.table-fitness .plan-destacado td {
+  color: var(--fitness-text);
+}
+
+/* ========== ACCORDION (Disciplinas) ========== */
+.accordion-fitness .accordion-item {
+  background: var(--fitness-bg-light);
+  border: 1px solid var(--fitness-border);
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+}
+.accordion-fitness .accordion-button {
+  background: transparent;
+  color: var(--fitness-text);
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  border: none;
+  box-shadow: none;
+}
+.accordion-fitness .accordion-button:not(.collapsed) {
+  background: rgba(230, 57, 70, 0.15);
+  color: var(--fitness-primary);
+}
+.accordion-fitness .accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-fitness .accordion-body {
+  color: var(--fitness-text-muted);
+  background: var(--fitness-bg);
+}
+
+/* ========== FORMULARIO ========== */
+.form-fitness .form-control {
+  background: var(--fitness-bg-light);
+  border: 1px solid var(--fitness-border);
+  color: var(--fitness-text);
+  padding: 0.8rem 1.2rem;
+}
+.form-fitness .form-control:focus {
+  background: var(--fitness-bg-light);
+  border-color: var(--fitness-primary);
+  box-shadow: 0 0 0 0.25rem rgba(230, 57, 70, 0.25);
+  color: var(--fitness-text);
+}
+.form-fitness .form-label {
+  color: var(--fitness-text-muted);
+  font-weight: 500;
+}
+.form-fitness .invalid-feedback {
+  color: #f8a5a5;
+}
+
+/* ========== MODAL ========== */
+.modal-content {
+  background: var(--fitness-bg);
+  border: 1px solid var(--fitness-border);
+  color: var(--fitness-text);
+}
+.modal-header,
+.modal-footer {
+  border-color: var(--fitness-border);
+}
+.modal-header .btn-close {
+  filter: invert(1);
+}
+
+/* ========== FOOTER ========== */
+footer .text-muted {
+  color: var(--fitness-text-muted) !important;
+}
+footer h5 {
+  color: var(--fitness-text);
+}
+footer hr {
+  border-color: var(--fitness-border);
+}
+
+/* ========== TESTIMONIO (si lo integras) ========== */
+.testimonio-box {
+  background: var(--fitness-bg-light);
+  border-left: 5px solid var(--fitness-secondary);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+/* ========== TESTIMONIO ========== */
+.testimonio-box {
+  background: var(--fitness-bg-light);
+  border-left: 6px solid var(--fitness-secondary);
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.testimonio-box:hover {
+  transform: scale(1.01);
+}
+.bg-fitness-secondary {
+  background-color: var(--fitness-secondary);
+  color: #1A1A2E;
+}
