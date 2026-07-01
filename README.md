@@ -1,16 +1,57 @@
-# React + Vite
+# 🏋️ FitnessPro - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap como proyecto final del curso Programación Front End en INACAP.
 
-Currently, two official plugins are available:
+## 🚀 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Diseño responsivo (mobile, tablet, desktop)
+- Menú de navegación con hamburguesa en móvil
+- Hero section con llamadas a la acción
+- Sección de clases con tarjetas
+- Horarios en tabla
+- Acordeón de disciplinas
+- Galería de instalaciones con modal ampliado
+- Tabla de planes de membresía (con fila destacada)
+- Formulario de contacto con validación
+- Testimonios en carrusel
+- Footer con ubicaciones y contacto
 
-## React Compiler
+## 🛠️ Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18+ (con JSX y hooks)
+- Bootstrap 5
+- Vite (bundler)
+- pnpm (gestor de paquetes)
+- CSS personalizado (App.css + index.css)
 
-## Expanding the Oxlint configuration
+## 📦 Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Vanot751/Evaluacion3FrontEnd_AlexanderCortes.git
+   cd Evaluacion3FrontEnd_AlexanderCortes
+
+    
+2. Instala las dependencias (usa pnpm o npm):
+    ```bash
+    pnpm install
+
+    
+3. Inicia el servidor de desarrollo:
+    ```bash
+    pnpm dev
+    # o
+    npm run dev
+
+4. Abre http://localhost:5173 en tu navegador.
+
+5. Despliegue
+
+La aplicación está desplegada en Vercel.
+Puedes visitarla en: https://fitnesspro-landing.vercel.app **(cambia por tu URL)**
+
+Autor
+Alexander Cortés
+
+Licencia
+Este proyecto es de uso académico.
