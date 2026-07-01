@@ -46,7 +46,7 @@ Landing page para una cadena de gimnasios, desarrollada con React + Bootstrap co
 5. Despliegue
 
 La aplicación está desplegada en Vercel.
-Puedes visitarla en: https://fitnesspro-landing.vercel.app **(cambia por tu URL)**
+Puedes visitarla en: https://evaluacion3-front-end-alexander-cor.vercel.app **(cambia por tu URL)**
 
 Autor
 Alexander Cortés

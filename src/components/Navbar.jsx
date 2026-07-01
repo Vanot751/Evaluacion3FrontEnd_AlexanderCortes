@@ -50,7 +50,7 @@ export default function Navbar() {
             </div>
             <div className="modal-body">
               <p>Próximamente podrás reservar tu clase desde aquí.</p>
-              <p>Mientras tanto, escríbenos al <strong>+56 9 1234 5678</strong>.</p>
+              <p>Mientras tanto, escríbenos al <strong>+56 9 1113 6769 </strong>.</p>
             </div>
             <div className="modal-footer">
               <button className="btn btn-secondary" onClick={() => setShowReserva(false)}>Cerrar</button>
