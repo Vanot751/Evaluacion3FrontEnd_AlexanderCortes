@@ -1,6 +1,5 @@
 /* ========== ESTILOS PARA FITNESS ========== */
 :root {
-  /* Colores fitness */
   --fitness-primary: #e63946;
   --fitness-bg: #1a1a2e;
   --fitness-text: #f0f0f0;
@@ -42,14 +41,14 @@
 
 .table-fitness tbody td {
   border-color: var(--fitness-border);
-  color: #d0d0d0; /* gris claro, legible */
+  color: #d0d0d0;
 }
 
 .table-fitness tbody tr:hover {
   background-color: rgba(255,255,255,0.05);
 }
 
-/* Fila destacada (Estándar) */
+/* Fila destacada */
 .plan-destacado {
   background-color: var(--fitness-primary) !important;
   color: #ffffff !important;
@@ -58,7 +57,7 @@
   color: #ffffff !important;
 }
 
-/* Tarjetas de clases (si las usas) */
+/* Tarjetas de clases */
 .card-fitness {
   background-color: var(--fitness-card-bg);
   border: 1px solid var(--fitness-card-border);
@@ -141,7 +140,7 @@
   border-color: #3a3a5a !important;
 }
 
-/* Fila destacada (Estándar) en ROJO */
+/* Fila destacada en ROJO */
 #planes .table .plan-destacado,
 #planes .table .plan-destacado td,
 #planes .table .plan-destacado th {
@@ -163,7 +162,7 @@
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
-/* Bordes entre celdas (más claros para que se vean) */
+/* Bordes entre celdas */
 #planes .table td,
 #planes .table th {
   border: 1px solid #3a3a5a !important;
@@ -182,12 +181,12 @@
   border-bottom: 2px solid #e63946 !important;
 }
 
-/* Efecto hover en filas (opcional) */
+/* Efecto hover en filas */
 #planes .table tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
-/* Fila Estándar (rojo) */
+/* Fila Estándar */
 #planes .table .plan-destacado,
 #planes .table .plan-destacado td,
 #planes .table .plan-destacado th {
@@ -196,7 +195,7 @@
   border-color: #b52b3a !important;
 }
 
-/* ===== TABLA DE HORARIOS (mismo estilo que Planes) ===== */
+/* ===== TABLA DE HORARIOS ===== */
 #horarios.bg-dark-section {
   background-color: #1a1a2e !important;
 }

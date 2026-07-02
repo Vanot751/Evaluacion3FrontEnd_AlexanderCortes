@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { FaDumbbell } from 'react-icons/fa'
-import './Navbar.css' // si tienes estilos adicionales, sino puedes usar solo App.css
+import './Navbar.css'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -40,7 +40,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Modal de Reserva */}
       <div className={`modal fade ${showReserva ? 'show' : ''}`} style={{ display: showReserva ? 'block' : 'none' }}>
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">

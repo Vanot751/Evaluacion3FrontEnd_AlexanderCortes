@@ -1,4 +1,3 @@
-// Galeria.jsx (versión mejorada y simplificada)
 import { useState, useEffect } from 'react'
 
 const imagenes = [
@@ -65,7 +64,6 @@ export default function Galeria() {
         </div>
       </div>
 
-      {/* Modal simplificado */}
       {show && (
         <div
           style={{
@@ -80,11 +78,11 @@ export default function Galeria() {
             justifyContent: 'center',
             alignItems: 'center',
             zIndex: 9999,
-            cursor: 'pointer', // Indica que se puede cerrar
+            cursor: 'pointer',
           }}
-          onClick={closeModal} // Cerrar al hacer clic en el fondo
+          onClick={closeModal}
         >
-          {/* Botón cerrar (X) - se coloca fuera del contenedor de imagen para que no interfiera */}
+
           <button
             style={{
               position: 'fixed',
@@ -99,7 +97,7 @@ export default function Galeria() {
               textShadow: '0 0 10px rgba(0,0,0,0.8)',
             }}
             onClick={(e) => {
-              e.stopPropagation() // Evitar que el clic en el botón cierre el modal dos veces
+              e.stopPropagation() 
               closeModal()
             }}
             aria-label="Cerrar"
@@ -107,7 +105,6 @@ export default function Galeria() {
             ✕
           </button>
 
-          {/* Contenedor de la imagen - sin eventos que interfieran */}
           <div
             style={{
               display: 'flex',
@@ -115,7 +112,7 @@ export default function Galeria() {
               alignItems: 'center',
               maxWidth: '95vw',
               maxHeight: '90vh',
-              pointerEvents: 'none', // Permite que los clics pasen al overlay
+              pointerEvents: 'none',
             }}
           >
             <img
@@ -126,7 +123,7 @@ export default function Galeria() {
                 objectFit: 'contain',
                 borderRadius: '12px',
                 boxShadow: '0 20px 60px rgba(0,0,0,0.7)',
-                pointerEvents: 'none', // Asegura que los clics en la imagen no interfieran
+                pointerEvents: 'none',
               }}
               alt="Ampliación"
             />
